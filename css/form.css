@@ -37,7 +37,6 @@ font-family: 'Poppins', sans-serif;
 
 .parent {
     display: flex;
-    border: 2px solid var(--faint-blue);
 }
 
 .flex-w {
@@ -184,7 +183,7 @@ a:hover{
 
 body {
 background: #7bb274;
-
+}
 
 .parent {
 width: 400px;
