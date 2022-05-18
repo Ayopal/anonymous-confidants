@@ -187,11 +187,12 @@ background:url("/img/form.png");
     input:not(.checkbox) {
     display: block;
     margin: auto;
+    margin-bottom: 10px;  
     outline: none;
     border-radius: 50px;
     width: 250px;
     height: 40px;
-    padding: 30px;
+    padding: 20px;
   font-size: 14px;
 }
     
@@ -212,7 +213,7 @@ background:url("/img/form.png");
 .forgot-pass {
     position: absolute;
     left: 70%;
-    top: 45%;
+    top: 55%;
     transform: translate(-50%, -50%);
     font-size: 12px;
 }
