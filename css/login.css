@@ -18,8 +18,8 @@ font-family: 'Poppins', sans-serif;
 
 .form-container{
     position: relative;
-    width: 80vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .inner-container {
@@ -178,7 +178,10 @@ background:url("/img/form.png");
   background-size:cover;
   box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
 }
-
+.Form-container {
+    width: 80%;
+   } 
+    
 .form-img {
         display: none;
     }
