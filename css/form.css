@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+:root {
+    --blue-color: #2d09cc;
+    --faint-blue: #0AA1DD; 
+    --green: rgb(1, 151, 1);
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+}
+
+.form-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parent {
+    width: auto;
+    margin: auto;
+    flex-direction: row;
+}
+
+.parent {
+    display: flex;
+    border: 2px solid var(--faint-blue);
+}
+
+.flex-w {
+    flex: 50%;
+    height: 490px;
+}
+
+.form {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    color: var(--green);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.parent, 
+input:not(.checkbox),
+.google-sign{
+border: 1px solid var(--green);
+}
+
+input:not(.checkbox) {
+    display: block;
+    margin: auto;
+    outline: none;
+    border-radius: 50px;
+    width: 340px;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 20px;  
+    transition: 0.3s;
+  background: transparent;
+  color: rgb(98, 114, 101);
+  font-size: 16px;
+
+}
+input:not(.checkbox):focus,
+input:not(.checkbox):hover
+ {
+transform: scale(1.03);
+}
+
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.check {
+    display: flex;
+    margin: 40px 0 10px 0;
+    justify-content: center; 
+}
+
+.checkbox {
+    accent-color: var(--green);
+}
+
+.ppolicy {
+    
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+  display:block;
+  margin:auto;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid var(--green);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  background: transparent;
+  cursor: pointer;
+}
+.btn:hover,
+.google-sign:hover, 
+.btn:focus {
+ background: var(--green);
+ color: #fff;
+ border: none;
+ transform: scale(1.1);
+}
+
+.or {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.google-sign {
+position: relative;
+display:block;
+  margin:auto;
+  width: 350px;
+  height: 40px;
+  border-radius: 50px;
+  padding-left: 33px;
+  background: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.google{
+    position: absolute;
+    width: 20px;
+    left: 45px;
+    top: 8px;
+
+}
+
+label {
+    padding-left: 10px
+}
+
+.login {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+p a{
+font-size: 12px;
+text-decoration: none;
+color: var(--green);
+transition: 0.3s;
+margin-bottom: 5px;
+}
+
+a:hover{
+   background:var(--green);
+   color: #fff;
+   border-radius: 50px;
+   padding: 0 6px 0 6px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.parent {
+  background:url("/img/form.png");
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
+}
+
+.form-img {
+        display: none;
+    }
+
+}
