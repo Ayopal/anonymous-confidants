@@ -180,6 +180,7 @@ background:url("/img/form.png");
 }
 .Form-container {
     width: 80vw;
+    margin-left: 10vw;
    } 
     
 .form-img {
