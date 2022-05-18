@@ -30,14 +30,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 .parent {
+    position: relative;
     width: auto;
     margin: auto;
+    display: flex;
     flex-direction: row;
 }
 
-.parent {
-    display: flex;
-}
 
 .flex-w {
     flex: 50%;
@@ -187,11 +186,11 @@ background: #7bb274;
 
 .parent {
 width: 360px;
-    height: auto;
+height: auto;
 border: none;
 background:url("/img/form.png");
-  background-size:cover;
-  box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
+background-size:cover;
+box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
 }
 
     
