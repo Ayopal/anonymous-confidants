@@ -174,7 +174,7 @@ a:hover{
 @media only screen and (max-width: 768px) {
 
 body {
- background: inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
+ background: #7bb274;
 
 }
 
@@ -219,7 +219,7 @@ border: none;
 .forgot-pass {
     position: absolute;
     left: 68%;
-    top: 65%;
+    top: 68%;
     transform: translate(-50%, -50%);
     font-size: 12px;
 }
