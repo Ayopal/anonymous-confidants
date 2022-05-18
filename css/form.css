@@ -186,7 +186,7 @@ background: #7bb274;
 }
 
 .parent {
-width: 400px;
+  width: 370px;
   background:url("/img/form.png");
   background-size:cover;
 border: none;
