@@ -170,6 +170,14 @@ a:hover{
    padding: 0 6px 0 6px;
 }
 
+input:focus,
+.btn:focus,
+.google-sign:focus,
+a:focus{
+    outline: none;
+}
+
+
 @media only screen and (max-width: 768px) {
 
 body {
@@ -199,6 +207,10 @@ box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
   font-size: 14px;
 }
     
+.btn {
+    width: 250px
+    }
+
 .google-sign {
         width:250px;
         }
