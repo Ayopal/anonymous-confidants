@@ -124,6 +124,7 @@ input::placeholder {
  color: #fff;
  border: none;
  transform: scale(1.1);
+ 
 }
 
 .or {
@@ -178,6 +179,12 @@ a:hover{
    padding: 0 6px 0 6px;
 }
 
+input:focus,
+.btn:focus,
+.google-sign:focus{
+    outline: none;
+}
+
 @media only screen and (max-width: 768px) {
 
 body {
@@ -204,6 +211,11 @@ input:not(.checkbox) {
     padding: 20px;
   font-size: 14px;
 }
+    
+    
+.btn {
+    width: 250px;
+    }
     
 .google-sign {
         width:300px;
