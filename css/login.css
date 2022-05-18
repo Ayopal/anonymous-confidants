@@ -185,6 +185,7 @@ background:url("/img/form.png");
     .parent{
     width: 360px;
     height: auto;
+border: none;
    
    } 
     
@@ -217,7 +218,7 @@ background:url("/img/form.png");
 .forgot-pass {
     position: absolute;
     left: 70%;
-    top: 55%;
+    top: 70%;
     transform: translate(-50%, -50%);
     font-size: 12px;
 }
