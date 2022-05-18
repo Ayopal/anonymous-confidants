@@ -206,8 +206,14 @@ input:not(.checkbox) {
 }
     
 .google-sign {
-        width:250px;
+        width:300px;
         }
+    
+.google {
+     
+     left: 50px;
+     
+     }
 
 .form-img {
         display: none;
