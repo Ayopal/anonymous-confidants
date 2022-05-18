@@ -33,9 +33,8 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     width: auto;
     margin: auto;
-    flex-direction: row;
     display: flex;
-    border: 2px solid var(--faint-blue);
+    flex-direction: row;
 }
     
 
@@ -178,17 +177,15 @@ body {
 
 }
 
+
 .parent {
-background:url("/img/form.png");
-  background-size:cover;
-  box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
-}
-    .parent{
-    width: 360px;
-    height: auto;
+width: 360px;
+height: auto;
 border: none;
-   
-   } 
+background:url("/img/form.png");
+background-size:cover;
+box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
+}
     
     input:not(.checkbox) {
     display: block;
