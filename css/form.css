@@ -181,7 +181,8 @@ a:hover{
 
 input:focus,
 .btn:focus,
-.google-sign:focus{
+.google-sign:focus,
+a:focus{
     outline: none;
 }
 
