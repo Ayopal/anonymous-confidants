@@ -182,9 +182,15 @@ a:hover{
 
 @media only screen and (max-width: 768px) {
 
+body {
+background: #7bb274;
+
+
 .parent {
+width: 400px;
   background:url("/img/form.png");
   background-size:cover;
+border: none;
   box-shadow:inset 0 0 0 2000px rgba(220, 255, 239, 0.8);
 }
 
